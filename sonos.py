@@ -6,7 +6,8 @@ import requests
 from bs4 import BeautifulSoup
 
 import os
-
+"""
+This script fetches news articles from Google News based on specified search terms, classifies the sentiment"""
 client = Anthropic(api_key=os.environ.get('ANTHROPIC_API_KEY'))
 
 print(os.path.abspath("coverage.txt"))
