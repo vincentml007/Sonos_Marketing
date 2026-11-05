@@ -4,6 +4,7 @@ from urllib.parse import quote_plus
 import requests
 from bs4 import BeautifulSoup
 
+
 import os
 """
 This script fetches news articles from Google News based on specified search terms, classifies the sentiment"""
